@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form>
+  <input type="text"><br>
+  <input type="button" value="submit">
+  <input type="submit"><br>
+  <input type="email">
+  <input type="color">
+  <input type="reset" value="reset"><br>
+  <input type="date">
+  <input type="datetime-local">
+  <input type="time">
+  <input type="number" max="12" min="5" step="0.5">
+  <input type="range">
+  <hr>
+  <div class="check">
+    <div>
+      <label for="check1">check  1</label>
+      <input type="checkbox" name="group" value="1" id="check1">
+    </div>
+    <div>
+      <label for="check1">check  2</label>
+      <input type="checkbox" name="group" value="1" id="check2">
+    </div>
+    <div>
+      <label for="check1">check  3</label>
+      <input type="checkbox" name="group" value="1" id="check3">
+    </div>
+  </div>
+  <div class="radio">
+    <div>
+      <label for="radio1">radio 1</label>
+      <input type="radio" name="choose" value="1" id="radio1">
+    </div>
+    <div>
+      <label for="radio2">radio 2</label>
+      <input type="radio" name="choose" value="1" id="radio2">
+    </div>
+    <div>
+      <label for="radio3">radio 3</label>
+      <input type="radio" name="choose" value="1" id="radio3">
+    </div>
+  </div>
+  <hr>
+  <label for="options">Choose one</label>
+  <select id="options" multiple>
+   <option>option 1</option>
+   <option>option 2</option>
+   <option selected>option 3</option>
+   <option>option 4</option>
+   <option>option 5</option>
+   <option>option 6</option>
+ </select>
+  <textarea></textarea>
+  <button>button</button>
+</form>
+<form>
+  <table border="1">
+    <tr>
+      <td>Last Name</td>
+      <td><input type="text" placeholder="Petrov" style="width: 525px"></td>
+    </tr>
+    <tr>
+      <td>First Name</td>
+      <td><input type="text" placeholder="Petr"></td>
+    </tr>
+    <tr>
+      <td>Adress</td>
+      <td><textarea placeholder="119 Kirova st."></textarea></td>
+      <tr>
+    <td>City</td>
+    <td><input type="text" placeholder="Gomel">State <input type="text">
+    </td>
+    </tr>
+    <tr>
+      <td>Zip/Postal code</td>
+      <td><input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>Country</td>
+      <td><select id="options">
+      <option selected>Belarus</option>
+      <option>Ukraine</option>
+        <option>Poland</option>
+      </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Phone</td>
+      <td>+48(<input type="text">) <input type="text"></td>
+    </tr>
+
+    <tr>
+      <td>Email</td>
+      <td><input type="email"></td>
+    </tr>
+
+    <tr>
+      <td>Birth date</td>
+      <td><label for="months">Month</label>
+        <select id="months">
+      <option>January</option>
+      <option>February</option>
+          <option>March</option>
+        </select>
+Day<input type="text">Year<input type="text" placeholder="2000">
+      </td>
+    </tr>
+
+    <tr>
+      <td>Gender</td>
+      <td><select id="gender">
+        <option selected>Non entered</option>
+        <option>Female</option>
+        <option>Male</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Starting Date</td>
+      <td>Spring<input type="radio">Autumn<input type="radio"></td>
+    </tr>
+    <tr>
+      <td>Comments/Questions</td>
+      <td><textarea placeholder="Please, send me more information about the ledding">
+        </textarea>
+      </td>
+    </tr>
+    <tr><td colspan="2">
+      <div style="text-align: center"><input type="submit"><input type="reset"></div></td>
+    <td></td></tr>
+  </table>
+</form>
+</body>
+</html>
